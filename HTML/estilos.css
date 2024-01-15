@@ -5,15 +5,28 @@ color: black; text-align: center;}
 text-align: center;
 }
 .logo{ width: 20em; 
-    padding: 0px 1px 1px 0px;
+    background-color: black;
+    padding: 2px 3px 2px 3px;
     border-radius: 10em;
     border: solid black;
     display: block;
-    margin: auto;
-    
-   
+    margin: auto;}
 
-}
+    .logo:hover {
+        background-color:  rgb(236, 228, 113);
+      }
+
+
+    .boton {
+        background-color: rgb(116, 85, 2);
+        transition: background-color 0.5s;
+      }
+      
+      .boton:hover {
+        background-color: gold;
+      }
+
+
 #principal {font-size: 4em; border: 3px solid rgb(109, 102, 7);
 width: 50vw;margin: auto; padding: 0px 0px 5px 0px; text-align: center;;
 }
